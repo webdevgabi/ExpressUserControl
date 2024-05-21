@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 const url = 'mongodb://localhost:27017';
-const db = 'ExpressUserManagement'
+const db = 'ExpressUserControl'
 
 module.exports = async () => {
     try {
