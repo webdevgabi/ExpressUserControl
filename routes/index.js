@@ -6,4 +6,7 @@ router.use('/create', createUserRoute);
 const getUserRoute = require('./getUser');
 router.use('/user', getUserRoute);
 
+const updateUserRoute = require('./updateUser');
+router.use('/update', updateUserRoute);
+
 module.exports = router;

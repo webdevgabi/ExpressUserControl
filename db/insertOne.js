@@ -5,8 +5,6 @@ module.exports = async ({ collection, data }) => {
         await db.collection(collection).insertOne(data);
         return true
     }
-    catch (e) {
-        return false;
-    }
+    catch (e) { return false }
 
 }

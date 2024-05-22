@@ -10,8 +10,6 @@ module.exports = async ({ collection, condition }) => {
 
         return user[0]
     }
-    catch (e) {
-        return false;
-    }
+    catch (e) { return false }
 
 }
