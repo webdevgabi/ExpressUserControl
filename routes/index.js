@@ -9,4 +9,7 @@ router.use('/user', getUserRoute);
 const updateUserRoute = require('./updateUser');
 router.use('/update', updateUserRoute);
 
+const deleteUserRoute = require('./deleteUser');
+router.use('/delete', deleteUserRoute);
+
 module.exports = router;
